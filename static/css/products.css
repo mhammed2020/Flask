@@ -1,0 +1,20 @@
+.prodss {
+background-color: #C6CC19;
+padding: 20px;
+margin: 20px auto;
+border: 5px solid #black;
+width: 450px;
+
+}
+.prodss .item{
+text-align: center;
+margin-bottom: 20px;
+font-size: 20px;
+font-weight: bold;
+
+}
+.prodss .price{
+background: yellow;
+padding: 10px;
+position: relative;
+}

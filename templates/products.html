@@ -1,0 +1,18 @@
+
+{% extends 'base.html' %}
+{% block body %}
+<h1 class="p_head"> {{p_head}} </h1>
+<p class="desc"> {{desc}}</p>
+
+
+{% for prod in prods %}
+<div class="prodss">
+   <div class="item">  {{prod[0]}} </div>
+   <div class="price">  {{prod[1]}} </div>
+
+</div>
+{% endfor %}
+{{products}}
+
+
+{% endblock %}
